@@ -30,7 +30,7 @@ module.exports = {
         new HTMLWebpackPlugin({template: path.resolve((__dirname, 'index.html'))})
     ],
     devServer: {
-        port: 3000,
+        port: 2000,
         open: true,
         hot: IS_DEV
     },
